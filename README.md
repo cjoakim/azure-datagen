@@ -70,4 +70,9 @@ dotnet run list_containers <dbname>
 
 dotnet run bulk_load_container <dbname> <container> <pk-attr> <infile> <batch-size>
 dotnet run bulk_load_container dev online_txn pk data\online_txn.json 500
+
+dotnet run count_documents <dbname> <cname>
+dotnet run count_documents dev online_txn
 ```
+
+See Program.cs for other functionality not listed here.
