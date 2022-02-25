@@ -7,7 +7,4 @@ docopt
 flake8
 humanize
 openpyxl
-psutil
-pytest
-pytest-cov
 requests

@@ -10,7 +10,7 @@ Options:
 __author__  = 'Chris Joakim'
 __email__   = "chjoakim@microsoft.com"
 __license__ = "MIT"
-__version__ = "2021.11.29"
+__version__ = "February 2022"
 
 # from datetime import date, datetime, timedelta
 # from dateutil import tz
@@ -23,7 +23,6 @@ import os
 import arrow 
 
 from docopt import docopt
-
 
 from pysrc.env import Env
 from pysrc.excel import Excel
