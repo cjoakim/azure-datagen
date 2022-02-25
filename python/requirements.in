@@ -4,6 +4,7 @@
 Jinja2
 arrow
 docopt
+faker
 flake8
 humanize
 openpyxl

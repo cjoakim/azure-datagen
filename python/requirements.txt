@@ -6,30 +6,22 @@
 #
 arrow==0.17.0
     # via -r .\requirements.in
-atomicwrites==1.4.0
-    # via pytest
-attrs==20.3.0
-    # via pytest
 certifi==2020.12.5
     # via requests
 chardet==4.0.0
     # via requests
-colorama==0.4.4
-    # via pytest
-coverage==5.4
-    # via pytest-cov
 docopt==0.6.2
     # via -r .\requirements.in
 et-xmlfile==1.0.1
     # via openpyxl
+faker==13.2.0
+    # via -r .\requirements.in
 flake8==3.8.4
     # via -r .\requirements.in
 humanize==3.2.0
     # via -r .\requirements.in
 idna==2.10
     # via requests
-iniconfig==1.1.1
-    # via pytest
 jdcal==1.4.1
     # via openpyxl
 jinja2==2.11.3
@@ -40,34 +32,18 @@ mccabe==0.6.1
     # via flake8
 openpyxl==3.0.6
     # via -r .\requirements.in
-packaging==20.9
-    # via pytest
-pluggy==0.13.1
-    # via pytest
-psutil==5.8.0
-    # via -r .\requirements.in
-py==1.10.0
-    # via pytest
 pycodestyle==2.6.0
     # via flake8
 pyflakes==2.2.0
     # via flake8
-pyparsing==2.4.7
-    # via packaging
-pytest==6.2.2
-    # via
-    #   -r .\requirements.in
-    #   pytest-cov
-pytest-cov==2.11.1
-    # via -r .\requirements.in
 python-dateutil==2.8.1
-    # via arrow
+    # via
+    #   arrow
+    #   faker
 requests==2.25.1
     # via -r .\requirements.in
 six==1.15.0
     # via python-dateutil
-toml==0.10.2
-    # via pytest
 urllib3==1.26.3
     # via requests
 
