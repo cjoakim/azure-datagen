@@ -59,6 +59,12 @@ AZURE_COSMOSDB_SQLDB_PREF_REGIONS
 AZURE_COSMOSDB_BULK_BATCH_SIZE  
 ```
 
+In Windows PowerShell, you can set environment variables as follows:
+
+```
+[Environment]::SetEnvironmentVariable("AZURE_COSMOSDB_SQLDB_URI", "<your-value>", "User")
+```
+
 ### Compile, Build, Execute
 
 ```
