@@ -1,0 +1,13 @@
+# Chris Joakim, Microsoft, February 2022
+# These libraries are sorted alphabetically
+
+Jinja2
+arrow
+docopt
+flake8
+humanize
+openpyxl
+psutil
+pytest
+pytest-cov
+requests
