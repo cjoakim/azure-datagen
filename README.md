@@ -39,6 +39,18 @@ generating flybuy txns using customers and products, redirecting to file ...
 done
 ```
 
+#### Linux / macOS / WSL
+
+```
+$ ./venv.sh
+...
+
+$ source venv/bin/activate
+
+(venv) [~/github/azure-datagen/python]$ python main.py gen_customers 1000
+file_written: data/customers.json
+```
+
 ---
 
 ## DotNet 6
